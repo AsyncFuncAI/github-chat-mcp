@@ -1,0 +1,17 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - githubApiKey
+    properties:
+      githubApiKey:
+        type: string
+        description: The API key for the GitHub Chat MCP server.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({command:'uv',args:['run','github-chat-mcp'],env:{GITHUB_API_KEY:config.githubApiKey}})

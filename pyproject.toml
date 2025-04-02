@@ -1,0 +1,25 @@
+[project]
+name = "github-chat-mcp"
+version = "0.1.0"
+authors = [
+    {name="Your Real Name", email="your.real.email@example.com"},
+]
+description = "GitHub Chat MCP server for analyzing GitHub repositories"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests~=2.31.0",
+    "mcp[cli]~=1.6.0",
+    "pydantic~=2.10.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourgithubusername/github-chat-mcp"
+Issues = "https://github.com/yourgithubusername/github-chat-mcp/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+github-chat-mcp = "github_chat_mcp:main"
