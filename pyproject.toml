@@ -2,7 +2,7 @@
 name = "github-chat-mcp"
 version = "0.1.0"
 authors = [
-    {name="Your Real Name", email="your.real.email@example.com"},
+    {name="Sheing Ng", email="sng@asyncfunc.ai"},
 ]
 description = "GitHub Chat MCP server for analyzing GitHub repositories"
 readme = "README.md"
@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourgithubusername/github-chat-mcp"
-Issues = "https://github.com/yourgithubusername/github-chat-mcp/issues"
+Homepage = "https://github.com/AsyncFuncAI/github-chat-mcp"
+Issues = "https://github.com/AsyncFuncAI/github-chat-mcp/issues"
 
 [build-system]
 requires = ["hatchling"]
