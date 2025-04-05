@@ -23,9 +23,7 @@ uv install github-chat-mcp
   "mcpServers": {
     "github-chat": {
       "command": "github-chat-mcp",
-      "env": {
-        "GITHUB_API_KEY": "YOUR_API_KEY_HERE"
-      }
+      "env": {}
     }
   }
 }
