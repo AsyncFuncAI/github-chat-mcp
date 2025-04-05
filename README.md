@@ -1,6 +1,6 @@
 # GitHub Chat MCP
 
-A Model Context Protocol (MCP) for analyzing and querying GitHub repositories using the GitHub Chat API.
+A Model Context Protocol (MCP) for analyzing and querying GitHub repositories using the GitHub Chat API. Official Site: https://github-chat.com
 
 ## Installation
 
