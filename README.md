@@ -150,7 +150,6 @@ mcp install /ABSOLUTE/PATH/TO/PARENT/FOLDER/github-chat-mcp/src/github_chat_mcp/
         "github-chat-mcp"
       ],
       "env": {
-        "GITHUB_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }
