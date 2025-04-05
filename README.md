@@ -1,6 +1,6 @@
 # GitHub Chat MCP
 
-A Machine Computer Program (MCP) for analyzing and querying GitHub repositories using the GitHub Chat API.
+A Model Context Protocol (MCP) for analyzing and querying GitHub repositories using the GitHub Chat API.
 
 ## Installation
 
@@ -67,7 +67,6 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
       "command": "uvx",
       "args": ["github-chat-mcp"],
       "env": {
-        "GITHUB_API_KEY": "YOUR_API_KEY_HERE"
       }
     }
   }
