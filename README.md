@@ -12,22 +12,7 @@ pip install github-chat-mcp
 uv install github-chat-mcp
 ```
 
-## Usage
 
-1. Get a GitHub Chat API key from https://github-chat.com
-
-2. Add the MCP to your Claude config file:
-
-```json
-{
-  "mcpServers": {
-    "github-chat": {
-      "command": "github-chat-mcp",
-      "env": {}
-    }
-  }
-}
-```
 
 3. Start using it with Claude!
 
@@ -54,7 +39,9 @@ Windows:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-### Setup with Cursor
+### Setup with Cursor (Recommended)
+In mcp.json:
+
 ```json
 {
   "mcpServers": {
