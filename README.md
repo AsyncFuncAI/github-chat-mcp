@@ -54,6 +54,22 @@ Windows:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+### Setup with Cursor
+```json
+{
+  "mcpServers": {
+    "github-chat": {
+      "command": "uvx",
+      "args": [
+        "github-chat-mcp"
+      ]
+    }
+  }
+}
+```
+
+With above, no envs required since it's a freemium release.
+
 ### Setup with Claude Desktop
 ```json
 # claude_desktop_config.json
