@@ -62,6 +62,7 @@ With above, no envs required since it's a freemium release.
 # claude_desktop_config.json
 # Can find location through:
 # Hamburger Menu -> File -> Settings -> Developer -> Edit Config
+# Must perform: brew install uv
 {
   "mcpServers": {
     "github-chat": {
