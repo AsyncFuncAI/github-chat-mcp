@@ -12,10 +12,6 @@ pip install github-chat-mcp
 uv install github-chat-mcp
 ```
 
-
-
-3. Start using it with Claude!
-
 Example prompts:
 - "Use github-chat-mcp to analyze the React repository"
 - "Index the TypeScript repository with github-chat-mcp and ask about its architecture"
@@ -89,6 +85,8 @@ npx -y @smithery/cli install github-chat-mcp --client claude
 
 2. Then ask questions about the repository:
    "What is the core tech stack used in this repository?"
+
+3. Start using it with Claude!
 
 ### Debugging
 Run:
@@ -164,6 +162,8 @@ mcp install /ABSOLUTE/PATH/TO/PARENT/FOLDER/github-chat-mcp/src/github_chat_mcp/
 
 2. Then ask questions about the repository:
    "What is the core tech stack used in this repository?"
+
+3. Start using it with Claude!
 
 ### Debugging
 Run:
