@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/asyncfuncai-github-chat-mcp-badge.png)](https://mseep.ai/app/asyncfuncai-github-chat-mcp)
+
 # GitHub Chat MCP
 
 A Model Context Protocol (MCP) for analyzing and querying GitHub repositories using the GitHub Chat API. Official Site: https://github-chat.com
