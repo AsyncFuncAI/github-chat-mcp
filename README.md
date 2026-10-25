@@ -22,7 +22,7 @@ Example prompts:
 
 # GitHub Chat MCP server
 
-[![smithery badge](https://smithery.ai/badge/github-chat-mcp)](https://smithery.ai/server/github-chat-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.AsyncFuncAI/github-chat-mcp)](https://lightnow.ai/servers/io.github.AsyncFuncAI/github-chat-mcp)
 
 ## Setup Instructions
 > Before anything, ensure you have a GitHub Chat API key. This is required to use the service.
